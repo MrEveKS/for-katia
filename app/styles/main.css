@@ -1,0 +1,18 @@
+body {
+    overflow: hidden;
+}
+
+.panels .left-panel,
+.panel .right-panel {
+    height: 500px;
+    overflow: auto;
+}
+
+.panels .left-panel tr.active>td {
+    background-color: #e8e8e8;
+}
+
+.panels .left-panel table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
